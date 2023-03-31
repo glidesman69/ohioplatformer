@@ -574,7 +574,7 @@ gdjs.evtsExt__ToggleSwitch__ToggleSwitch.ToggleSwitch.prototype.doStepPostEvents
 }if ( gdjs.evtsExt__ToggleSwitch__ToggleSwitch.ToggleSwitch.prototype.doStepPostEventsContext.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__ToggleSwitch__ToggleSwitch.ToggleSwitch.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__ToggleSwitch__ToggleSwitch.ToggleSwitch.prototype.doStepPostEventsContext.condition1IsTrue_0;
-gdjs.evtsExt__ToggleSwitch__ToggleSwitch.ToggleSwitch.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13938428);
+gdjs.evtsExt__ToggleSwitch__ToggleSwitch.ToggleSwitch.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(14956388);
 }
 }}
 if (gdjs.evtsExt__ToggleSwitch__ToggleSwitch.ToggleSwitch.prototype.doStepPostEventsContext.condition1IsTrue_0.val) {

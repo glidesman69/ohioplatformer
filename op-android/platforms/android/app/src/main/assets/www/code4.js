@@ -19,6 +19,20 @@ gdjs.cheats_32menuCode.eventsList0 = function(runtimeScene) {
 
 {
 
+
+gdjs.cheats_32menuCode.condition0IsTrue_0.val = false;
+{
+gdjs.cheats_32menuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.cheats_32menuCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(5).setString("cheats");
+}{gdjs.evtTools.window.setWindowTitle(runtimeScene, gdjs.evtsExt__GetPropertiesData__ReturnGameTitle.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3)) + " - menu (" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5)) + " screen)");
+}}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("xbutton"), gdjs.cheats_32menuCode.GDxbuttonObjects1);
 
 gdjs.cheats_32menuCode.condition0IsTrue_0.val = false;
