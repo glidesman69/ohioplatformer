@@ -12,11 +12,19 @@
     ],
     "author": "wavefront :D",
     "devDependencies": {
-        "cordova-plugin-ionic-webview": "5.0.0"
+        "cordova-plugin-ionic-webview": "5.0.0",
+        "cordova-plugin-whitelist": "1",
+        "cordova-plugin-screen-orientation": "3.0.2",
+        "cordova-plugin-vibration": "3.1.1"
     },
     "cordova": {
         "plugins": {
-            "cordova-plugin-ionic-webview": {}
+            "cordova-plugin-ionic-webview": {},
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-screen-orientation": {},
+            "cordova-plugin-vibration": {},
+            "cordova-plugin-inappbrowser": {}
         }
-    }
+    },
+    "dependencies": {}
 }
