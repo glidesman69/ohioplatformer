@@ -1,6 +1,4 @@
 gdjs.menuCode = {};
-gdjs.menuCode.GDcheatactivationdebugbuttonObjects1_1final = [];
-
 gdjs.menuCode.GDcheatsButtonObjects1_1final = [];
 
 gdjs.menuCode.GDxbuttonObjects1= [];
@@ -23,6 +21,14 @@ gdjs.menuCode.GDcheatsButtonObjects1= [];
 gdjs.menuCode.GDcheatsButtonObjects2= [];
 gdjs.menuCode.GDcheatactivationdebugbuttonObjects1= [];
 gdjs.menuCode.GDcheatactivationdebugbuttonObjects2= [];
+gdjs.menuCode.GDNewTextObjects1= [];
+gdjs.menuCode.GDNewTextObjects2= [];
+gdjs.menuCode.GDchangelogButtonObjects1= [];
+gdjs.menuCode.GDchangelogButtonObjects2= [];
+gdjs.menuCode.GDloadsaveButtonObjects1= [];
+gdjs.menuCode.GDloadsaveButtonObjects2= [];
+gdjs.menuCode.GDhelpButtonObjects1= [];
+gdjs.menuCode.GDhelpButtonObjects2= [];
 
 gdjs.menuCode.conditionTrue_0 = {val:false};
 gdjs.menuCode.condition0IsTrue_0 = {val:false};
@@ -34,18 +40,37 @@ gdjs.menuCode.condition1IsTrue_1 = {val:false};
 gdjs.menuCode.condition2IsTrue_1 = {val:false};
 
 
+gdjs.menuCode.mapOfGDgdjs_46menuCode_46GDcheatsButtonObjects1Objects = Hashtable.newFrom({"cheatsButton": gdjs.menuCode.GDcheatsButtonObjects1});
 gdjs.menuCode.eventsList0 = function(runtimeScene) {
 
 {
 
 
-
-}
-
-
+gdjs.menuCode.condition0IsTrue_0.val = false;
 {
-
-
+{gdjs.menuCode.conditionTrue_1 = gdjs.menuCode.condition0IsTrue_0;
+gdjs.menuCode.condition0IsTrue_1.val = false;
+gdjs.menuCode.condition1IsTrue_1.val = false;
+{
+gdjs.menuCode.condition0IsTrue_1.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if( gdjs.menuCode.condition0IsTrue_1.val ) {
+    gdjs.menuCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.menuCode.condition1IsTrue_1.val = gdjs.evtTools.runtimeScene.sceneJustResumed(runtimeScene);
+if( gdjs.menuCode.condition1IsTrue_1.val ) {
+    gdjs.menuCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
+}if (gdjs.menuCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(5).setString("menu");
+}{gdjs.evtTools.window.setWindowTitle(runtimeScene, gdjs.evtsExt__GetPropertiesData__ReturnGameTitle.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3)) + " - menu");
+}}
 
 }
 
@@ -64,8 +89,8 @@ for(var i = 0, k = 0, l = gdjs.menuCode.GDplayButtonObjects1.length;i<l;++i) {
     }
 }
 gdjs.menuCode.GDplayButtonObjects1.length = k;}if (gdjs.menuCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "ohio platformer lvl1", false);
-}{gdjs.evtTools.sound.playSound(runtimeScene, "y2mate.com - Bruh Sound Effect HD.mp3", false, 100, 1);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "fake loading screen", true);
+}{runtimeScene.getGame().getVariables().getFromIndex(4).add(1);
 }}
 
 }
@@ -133,16 +158,13 @@ gdjs.menuCode.GDoptionsButtonObjects1.length = k;}if (gdjs.menuCode.condition0Is
 
 {
 
-gdjs.menuCode.GDcheatactivationdebugbuttonObjects1.length = 0;
-
 gdjs.menuCode.GDcheatsButtonObjects1.length = 0;
 
 
 gdjs.menuCode.condition0IsTrue_0.val = false;
 {
 {gdjs.menuCode.conditionTrue_1 = gdjs.menuCode.condition0IsTrue_0;
-gdjs.menuCode.GDcheatactivationdebugbuttonObjects1_1final.length = 0;gdjs.menuCode.GDcheatsButtonObjects1_1final.length = 0;gdjs.menuCode.condition0IsTrue_1.val = false;
-gdjs.menuCode.condition1IsTrue_1.val = false;
+gdjs.menuCode.GDcheatsButtonObjects1_1final.length = 0;gdjs.menuCode.condition0IsTrue_1.val = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("cheatsButton"), gdjs.menuCode.GDcheatsButtonObjects2);
 for(var i = 0, k = 0, l = gdjs.menuCode.GDcheatsButtonObjects2.length;i<l;++i) {
@@ -161,24 +183,6 @@ gdjs.menuCode.GDcheatsButtonObjects2.length = k;if( gdjs.menuCode.condition0IsTr
 }
 }
 {
-gdjs.copyArray(runtimeScene.getObjects("cheatactivationdebugbutton"), gdjs.menuCode.GDcheatactivationdebugbuttonObjects2);
-for(var i = 0, k = 0, l = gdjs.menuCode.GDcheatactivationdebugbuttonObjects2.length;i<l;++i) {
-    if ( gdjs.menuCode.GDcheatactivationdebugbuttonObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        gdjs.menuCode.condition1IsTrue_1.val = true;
-        gdjs.menuCode.GDcheatactivationdebugbuttonObjects2[k] = gdjs.menuCode.GDcheatactivationdebugbuttonObjects2[i];
-        ++k;
-    }
-}
-gdjs.menuCode.GDcheatactivationdebugbuttonObjects2.length = k;if( gdjs.menuCode.condition1IsTrue_1.val ) {
-    gdjs.menuCode.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.menuCode.GDcheatactivationdebugbuttonObjects2.length;j<jLen;++j) {
-        if ( gdjs.menuCode.GDcheatactivationdebugbuttonObjects1_1final.indexOf(gdjs.menuCode.GDcheatactivationdebugbuttonObjects2[j]) === -1 )
-            gdjs.menuCode.GDcheatactivationdebugbuttonObjects1_1final.push(gdjs.menuCode.GDcheatactivationdebugbuttonObjects2[j]);
-    }
-}
-}
-{
-gdjs.copyArray(gdjs.menuCode.GDcheatactivationdebugbuttonObjects1_1final, gdjs.menuCode.GDcheatactivationdebugbuttonObjects1);
 gdjs.copyArray(gdjs.menuCode.GDcheatsButtonObjects1_1final, gdjs.menuCode.GDcheatsButtonObjects1);
 }
 }
@@ -212,6 +216,51 @@ gdjs.menuCode.GDcheatsButtonObjects1.length = k;}if (gdjs.menuCode.condition0IsT
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("cheatactivationdebugbutton"), gdjs.menuCode.GDcheatactivationdebugbuttonObjects1);
+
+gdjs.menuCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.menuCode.GDcheatactivationdebugbuttonObjects1.length;i<l;++i) {
+    if ( gdjs.menuCode.GDcheatactivationdebugbuttonObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.menuCode.condition0IsTrue_0.val = true;
+        gdjs.menuCode.GDcheatactivationdebugbuttonObjects1[k] = gdjs.menuCode.GDcheatactivationdebugbuttonObjects1[i];
+        ++k;
+    }
+}
+gdjs.menuCode.GDcheatactivationdebugbuttonObjects1.length = k;}if (gdjs.menuCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.menuCode.GDcheatactivationdebugbuttonObjects1 */
+gdjs.menuCode.GDcheatsButtonObjects1.length = 0;
+
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.menuCode.mapOfGDgdjs_46menuCode_46GDcheatsButtonObjects1Objects, 64, 128, "");
+}{for(var i = 0, len = gdjs.menuCode.GDcheatactivationdebugbuttonObjects1.length ;i < len;++i) {
+    gdjs.menuCode.GDcheatactivationdebugbuttonObjects1[i].deleteFromScene(runtimeScene);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("helpButton"), gdjs.menuCode.GDhelpButtonObjects1);
+
+gdjs.menuCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.menuCode.GDhelpButtonObjects1.length;i<l;++i) {
+    if ( gdjs.menuCode.GDhelpButtonObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.menuCode.condition0IsTrue_0.val = true;
+        gdjs.menuCode.GDhelpButtonObjects1[k] = gdjs.menuCode.GDhelpButtonObjects1[i];
+        ++k;
+    }
+}
+gdjs.menuCode.GDhelpButtonObjects1.length = k;}if (gdjs.menuCode.condition0IsTrue_0.val) {
+}
+
+}
+
+
 };
 
 gdjs.menuCode.func = function(runtimeScene) {
@@ -237,6 +286,14 @@ gdjs.menuCode.GDcheatsButtonObjects1.length = 0;
 gdjs.menuCode.GDcheatsButtonObjects2.length = 0;
 gdjs.menuCode.GDcheatactivationdebugbuttonObjects1.length = 0;
 gdjs.menuCode.GDcheatactivationdebugbuttonObjects2.length = 0;
+gdjs.menuCode.GDNewTextObjects1.length = 0;
+gdjs.menuCode.GDNewTextObjects2.length = 0;
+gdjs.menuCode.GDchangelogButtonObjects1.length = 0;
+gdjs.menuCode.GDchangelogButtonObjects2.length = 0;
+gdjs.menuCode.GDloadsaveButtonObjects1.length = 0;
+gdjs.menuCode.GDloadsaveButtonObjects2.length = 0;
+gdjs.menuCode.GDhelpButtonObjects1.length = 0;
+gdjs.menuCode.GDhelpButtonObjects2.length = 0;
 
 gdjs.menuCode.eventsList0(runtimeScene);
 

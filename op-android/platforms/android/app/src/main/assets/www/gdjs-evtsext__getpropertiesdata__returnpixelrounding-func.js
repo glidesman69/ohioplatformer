@@ -11,7 +11,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnPixelRounding.conditionTrue_0 = {val:fals
 gdjs.evtsExt__GetPropertiesData__ReturnPixelRounding.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnPixelRounding.userFunc0xbf9e28 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GetPropertiesData__ReturnPixelRounding.userFunc0xcc4918 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getGame().getGameData().properties.pixelsRounding;
 };
@@ -20,7 +20,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnPixelRounding.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnPixelRounding.userFunc0xbf9e28(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__GetPropertiesData__ReturnPixelRounding.userFunc0xcc4918(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
