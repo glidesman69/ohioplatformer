@@ -4,76 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="006b2709-6aec-4261-a82e-ba6d8f4c3a16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/Extensions/AdvancedWindow/electron-advancedwindowtools.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/Extensions/AdvancedWindow/electron-advancedwindowtools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/Extensions/LinkedObjects/linkedobjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/Extensions/LinkedObjects/linkedobjects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/Extensions/PlatformBehavior/platformerobjectruntimebehavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/Extensions/PlatformBehavior/platformerobjectruntimebehavior.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code0.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code1.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code2.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code3.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code4.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code5.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code6.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code7.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code8.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code9.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/code9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__checkbox__checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__checkbox__checkbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__discordrichpresence__connecttodiscord-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__discordrichpresence__connecttodiscord-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__discordrichpresence__onfirstsceneloaded-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__discordrichpresence__onfirstsceneloaded-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__discordrichpresence__updaterichpresence-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__discordrichpresence__updaterichpresence-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__draggablephysics__draggablephysics.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__draggablephysics__draggablephysics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__a_set_deadzone-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__a_set_deadzone-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__a_vibrate_controller-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__a_vibrate_controller-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__axisvalue-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__axisvalue-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_any_button_pressed-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_any_button_pressed-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_any_button_released-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_any_button_released-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_axis_pushed-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_axis_pushed-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_button_pressed-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_button_pressed-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_button_released-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_button_released-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_controller_type-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_controller_type-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_controller_x_is_connected-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__c_controller_x_is_connected-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__connectedgamepadscount-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__connectedgamepadscount-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__deadzone-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__deadzone-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__gamepadcount-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__gamepadcount-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__gamepadtype-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__gamepadtype-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__lastbuttonid-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__lastbuttonid-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__lastbuttonstring-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__lastbuttonstring-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__onfirstsceneloaded-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__onfirstsceneloaded-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__onscenepostevents-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__onscenepostevents-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__stickforce-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__stickforce-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__stickrotationvalue-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__stickrotationvalue-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__triggerpressure-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__gamepads__triggerpressure-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returngametitle-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returngametitle-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returngameversion-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returngameversion-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnmaxfps-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnmaxfps-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnminfps-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnminfps-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnorientation-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnorientation-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnpackagename-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnpackagename-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnpixelrounding-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnpixelrounding-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnpublishername-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnpublishername-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnscalemode-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnscalemode-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnsizeonstart-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnsizeonstart-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnverticalsync-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnverticalsync-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnwindowheight-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnwindowheight-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnwindowwidth-func.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__getpropertiesdata__returnwindowwidth-func.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__isonscreen__inonscreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__isonscreen__inonscreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__konamicode__konamicode.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__konamicode__konamicode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__panelspritebutton__buttonfsm.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__panelspritebutton__buttonfsm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__panelspritebutton__panelspritebutton.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__panelspritebutton__panelspritebutton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__panelspriteslider__panelspriteslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__panelspriteslider__panelspriteslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__platformercharacteranimator__platformercharacteranimator.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__platformercharacteranimator__platformercharacteranimator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__smoothcamera__smoothcamera.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__smoothcamera__smoothcamera.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__toggleswitch__toggleswitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/gdjs-evtsext__toggleswitch__toggleswitch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/inputmanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/inputmanager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/manifest.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/pixi-renderers/runtimegame-pixi-renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/assets/www/pixi-renderers/runtimegame-pixi-renderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/op-android/platforms/android/app/src/main/res/xml/config.xml" afterDir="false" />
-    </list>
+    <list default="true" id="006b2709-6aec-4261-a82e-ba6d8f4c3a16" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,15 +21,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,5 +40,28 @@
       <updated>1680268309024</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
