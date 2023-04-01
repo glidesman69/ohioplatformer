@@ -19,6 +19,20 @@ gdjs.creditsCode.eventsList0 = function(runtimeScene) {
 
 {
 
+
+gdjs.creditsCode.condition0IsTrue_0.val = false;
+{
+gdjs.creditsCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.creditsCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(5).setString("credits");
+}{gdjs.evtTools.window.setWindowTitle(runtimeScene, gdjs.evtsExt__GetPropertiesData__ReturnGameTitle.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3)) + " - menu (" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5)) + " screen)");
+}}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("xbutton"), gdjs.creditsCode.GDxbuttonObjects1);
 
 gdjs.creditsCode.condition0IsTrue_0.val = false;
