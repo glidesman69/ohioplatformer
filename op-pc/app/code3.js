@@ -130,6 +130,15 @@ gdjs.copyArray(runtimeScene.getObjects("controlstab"), gdjs.optionsCode.GDcontro
 }
 
 
+{
+
+
+{
+}
+
+}
+
+
 };
 
 gdjs.optionsCode.func = function(runtimeScene) {
