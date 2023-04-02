@@ -1,0 +1,27 @@
+{
+  "name": "ohio platformer",
+  "short_name": "ohio platformer",
+  "id": "com.ohio.platformer",
+  "description": "a terrible game that takes place in ohio (not) and you have to kill enemies or some stuff idk\nwith over 69420 game awards as of 2069\n\nall jokes aside this is a satire game actually so don't take things too seriously",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "5fd613715aa0cd3ff316fb37ca0f2eba998d80b7f61ab01ebf8ff6644826de6c-ohio platformer game icon 36x36.png",
+        "sizes": "36x36"
+      },{
+        "src": "52e5ec2ea85b606432e2ed3aca3ed6c23021dd2448a19c0aa3ae77bc410de83f-ohio platformer game icon 72x72.png",
+        "sizes": "72x72"
+      },{
+        "src": "23982f0c5e7982199f69d644908c8fa5197290ec2576916d81ecf5721a4f20e9-ohio platformer game icon 192x192.png",
+        "sizes": "192x192"
+      },{
+        "src": "d618b6a4a773e9ed849490d3e27ea426b5b990203298b9647da83d3d0979c935-ohio platformer game icon 512x512.png",
+        "sizes": "512x512"
+      },{
+        "src": "f004879a7a3ffe73d4a56ef278b43ebe7f48711ef0318767b3ef7c1a721c5e6d-ohio platformer game icon 1024x1024.png",
+        "sizes": "1024x1024"
+      }]
+}

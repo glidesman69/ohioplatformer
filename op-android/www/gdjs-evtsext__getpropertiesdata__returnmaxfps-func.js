@@ -11,7 +11,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.conditionTrue_0 = {val:false};
 gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.userFunc0xcc4918 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.userFunc0xc17f20 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getGame().getGameData().properties.maxFPS;
 };
@@ -20,7 +20,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.userFunc0xcc4918(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.userFunc0xc17f20(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
