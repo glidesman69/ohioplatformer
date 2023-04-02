@@ -497,7 +497,7 @@ gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPreEventsContext.condi
 }if ( gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPreEventsContext.conditionTrue_1 = gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPreEventsContext.condition1IsTrue_0;
-gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(15148716);
+gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(15320772);
 }
 }}
 if (gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {

@@ -1,22 +1,27 @@
 {
-    "name": "ohio_32platformer",
-    "displayName": "ohio platformer",
-    "version": "v0.09.23",
-    "description": "ohio platformer",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "ecosystem:cordova"
-    ],
-    "author": "wavefront :D",
-    "devDependencies": {
-        "cordova-plugin-ionic-webview": "5.0.0"
-    },
-    "cordova": {
-        "plugins": {
-            "cordova-plugin-ionic-webview": {}
-        }
+  "name": "ohio_32platformer",
+  "main": "main.js",
+  "productName": "ohio platformer",
+  "description": "ohio platformer",
+  "author": "wavefront :D",
+  "version": "v0.10.2.2",
+  "dependencies": {
+    
+	"discord-rich-presence": "0.0.8",
+    "@electron/remote": "^2.0.8"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "18.2.2",
+    "electron-builder": "22.11.11"
+  },
+  "build": {
+    "appId": "com.ohio.platformer",
+    "directories": {
+      "buildResources": "buildResources"
     }
+  }
 }

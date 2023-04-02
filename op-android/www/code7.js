@@ -3,6 +3,8 @@ gdjs.save_32screenCode.GDxbuttonObjects1= [];
 gdjs.save_32screenCode.GDxbuttonObjects2= [];
 gdjs.save_32screenCode.GDsavewarningObjects1= [];
 gdjs.save_32screenCode.GDsavewarningObjects2= [];
+gdjs.save_32screenCode.GDsavewarning2Objects1= [];
+gdjs.save_32screenCode.GDsavewarning2Objects2= [];
 gdjs.save_32screenCode.GDsave1ButtonObjects1= [];
 gdjs.save_32screenCode.GDsave1ButtonObjects2= [];
 gdjs.save_32screenCode.GDsave2ButtonObjects1= [];
@@ -35,6 +37,15 @@ gdjs.save_32screenCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.scene
 }
 
 
+{
+
+
+{
+}
+
+}
+
+
 };
 
 gdjs.save_32screenCode.func = function(runtimeScene) {
@@ -44,6 +55,8 @@ gdjs.save_32screenCode.GDxbuttonObjects1.length = 0;
 gdjs.save_32screenCode.GDxbuttonObjects2.length = 0;
 gdjs.save_32screenCode.GDsavewarningObjects1.length = 0;
 gdjs.save_32screenCode.GDsavewarningObjects2.length = 0;
+gdjs.save_32screenCode.GDsavewarning2Objects1.length = 0;
+gdjs.save_32screenCode.GDsavewarning2Objects2.length = 0;
 gdjs.save_32screenCode.GDsave1ButtonObjects1.length = 0;
 gdjs.save_32screenCode.GDsave1ButtonObjects2.length = 0;
 gdjs.save_32screenCode.GDsave2ButtonObjects1.length = 0;
