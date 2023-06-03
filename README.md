@@ -16,3 +16,6 @@ you can follow the building instruction on [gdevelop's](https://wiki.gdevelop.io
 
 # hate building?
 just go to the releases tab and enjoy my terrible game. sorry but, no prebuilt mac os or ios version. gdevelop doesn't have the option to do so, probably because apple doesn't give them build tools for free. unlike android.
+
+# bugs?
+you are welcome to create an issue. but it's not like even with the tons of issues i could fix the game and the game is fully playable and becomes like idk a triple a game. although, still appreciated i guess.
