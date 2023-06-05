@@ -7,11 +7,8 @@ if (typeof gdjs.evtsExt__DiscordRichPresence__onFirstSceneLoaded !== "undefined"
 
 gdjs.evtsExt__DiscordRichPresence__onFirstSceneLoaded = {};
 
-gdjs.evtsExt__DiscordRichPresence__onFirstSceneLoaded.conditionTrue_0 = {val:false};
-gdjs.evtsExt__DiscordRichPresence__onFirstSceneLoaded.condition0IsTrue_0 = {val:false};
 
-
-gdjs.evtsExt__DiscordRichPresence__onFirstSceneLoaded.userFunc0xc075a8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__DiscordRichPresence__onFirstSceneLoaded.userFunc0xe405e0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs.evtTools.discordRP = {
     client: null,
@@ -23,7 +20,7 @@ gdjs.evtsExt__DiscordRichPresence__onFirstSceneLoaded.eventsList0 = function(run
 {
 
 
-gdjs.evtsExt__DiscordRichPresence__onFirstSceneLoaded.userFunc0xc075a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__DiscordRichPresence__onFirstSceneLoaded.userFunc0xe405e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

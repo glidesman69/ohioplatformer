@@ -1,30 +1,38 @@
-gdjs.cheats_32menuCode = {};
-gdjs.cheats_32menuCode.GDxbuttonObjects1= [];
-gdjs.cheats_32menuCode.GDxbuttonObjects2= [];
-gdjs.cheats_32menuCode.GDhackaaaaObjects1= [];
-gdjs.cheats_32menuCode.GDhackaaaaObjects2= [];
-gdjs.cheats_32menuCode.GDtypecheatsObjects1= [];
-gdjs.cheats_32menuCode.GDtypecheatsObjects2= [];
-gdjs.cheats_32menuCode.GDcheatInputObjects1= [];
-gdjs.cheats_32menuCode.GDcheatInputObjects2= [];
-gdjs.cheats_32menuCode.GDcheatOutputTextObjects1= [];
-gdjs.cheats_32menuCode.GDcheatOutputTextObjects2= [];
+gdjs.optionsCode = {};
+gdjs.optionsCode.GDxbuttonObjects1= [];
+gdjs.optionsCode.GDxbuttonObjects2= [];
+gdjs.optionsCode.GDcontrolstabObjects1= [];
+gdjs.optionsCode.GDcontrolstabObjects2= [];
+gdjs.optionsCode.GDgameplaytabObjects1= [];
+gdjs.optionsCode.GDgameplaytabObjects2= [];
+gdjs.optionsCode.GDmisctabObjects1= [];
+gdjs.optionsCode.GDmisctabObjects2= [];
+gdjs.optionsCode.GDdisplaytabObjects1= [];
+gdjs.optionsCode.GDdisplaytabObjects2= [];
+gdjs.optionsCode.GDdisplaytab2Objects1= [];
+gdjs.optionsCode.GDdisplaytab2Objects2= [];
+gdjs.optionsCode.GDusedpadtextObjects1= [];
+gdjs.optionsCode.GDusedpadtextObjects2= [];
+gdjs.optionsCode.GDrepositionjoyObjects1= [];
+gdjs.optionsCode.GDrepositionjoyObjects2= [];
+gdjs.optionsCode.GDSmallPlasticGreenRoundSliderObjects1= [];
+gdjs.optionsCode.GDSmallPlasticGreenRoundSliderObjects2= [];
+gdjs.optionsCode.GDusedpadbuttonObjects1= [];
+gdjs.optionsCode.GDusedpadbuttonObjects2= [];
+gdjs.optionsCode.GDreposjoyObjects1= [];
+gdjs.optionsCode.GDreposjoyObjects2= [];
 
-gdjs.cheats_32menuCode.conditionTrue_0 = {val:false};
-gdjs.cheats_32menuCode.condition0IsTrue_0 = {val:false};
-gdjs.cheats_32menuCode.condition1IsTrue_0 = {val:false};
 
-
-gdjs.cheats_32menuCode.eventsList0 = function(runtimeScene) {
+gdjs.optionsCode.eventsList0 = function(runtimeScene) {
 
 {
 
 
-gdjs.cheats_32menuCode.condition0IsTrue_0.val = false;
-{
-gdjs.cheats_32menuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-}if (gdjs.cheats_32menuCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(5).setString("cheats");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(5).setString("options");
 }{gdjs.evtTools.window.setWindowTitle(runtimeScene, gdjs.evtsExt__GetPropertiesData__ReturnGameTitle.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3)) + " - menu (" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5)) + " screen)");
 }}
 
@@ -33,18 +41,61 @@ gdjs.cheats_32menuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.scene
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("xbutton"), gdjs.cheats_32menuCode.GDxbuttonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("usedpadbutton"), gdjs.optionsCode.GDusedpadbuttonObjects1);
 
-gdjs.cheats_32menuCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.cheats_32menuCode.GDxbuttonObjects1.length;i<l;++i) {
-    if ( gdjs.cheats_32menuCode.GDxbuttonObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        gdjs.cheats_32menuCode.condition0IsTrue_0.val = true;
-        gdjs.cheats_32menuCode.GDxbuttonObjects1[k] = gdjs.cheats_32menuCode.GDxbuttonObjects1[i];
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.optionsCode.GDusedpadbuttonObjects1.length;i<l;++i) {
+    if ( gdjs.optionsCode.GDusedpadbuttonObjects1[i].getBehavior("ToggleSwitch").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.optionsCode.GDusedpadbuttonObjects1[k] = gdjs.optionsCode.GDusedpadbuttonObjects1[i];
         ++k;
     }
 }
-gdjs.cheats_32menuCode.GDxbuttonObjects1.length = k;}if (gdjs.cheats_32menuCode.condition0IsTrue_0.val) {
+gdjs.optionsCode.GDusedpadbuttonObjects1.length = k;
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("usedpadbutton"), gdjs.optionsCode.GDusedpadbuttonObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.optionsCode.GDusedpadbuttonObjects1.length;i<l;++i) {
+    if ( gdjs.optionsCode.GDusedpadbuttonObjects1[i].getBehavior("ToggleSwitch").IsDisabled((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.optionsCode.GDusedpadbuttonObjects1[k] = gdjs.optionsCode.GDusedpadbuttonObjects1[i];
+        ++k;
+    }
+}
+gdjs.optionsCode.GDusedpadbuttonObjects1.length = k;
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(0);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("xbutton"), gdjs.optionsCode.GDxbuttonObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.optionsCode.GDxbuttonObjects1.length;i<l;++i) {
+    if ( gdjs.optionsCode.GDxbuttonObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.optionsCode.GDxbuttonObjects1[k] = gdjs.optionsCode.GDxbuttonObjects1[i];
+        ++k;
+    }
+}
+gdjs.optionsCode.GDxbuttonObjects1.length = k;
+if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }}
 
@@ -53,28 +104,26 @@ gdjs.cheats_32menuCode.GDxbuttonObjects1.length = k;}if (gdjs.cheats_32menuCode.
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("gameplaytab"), gdjs.optionsCode.GDgameplaytabObjects1);
 
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("cheatOutputText"), gdjs.cheats_32menuCode.GDcheatOutputTextObjects1);
-
-gdjs.cheats_32menuCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.cheats_32menuCode.GDcheatOutputTextObjects1.length;i<l;++i) {
-    if ( gdjs.cheats_32menuCode.GDcheatOutputTextObjects1[i].getString() == "amogus" ) {
-        gdjs.cheats_32menuCode.condition0IsTrue_0.val = true;
-        gdjs.cheats_32menuCode.GDcheatOutputTextObjects1[k] = gdjs.cheats_32menuCode.GDcheatOutputTextObjects1[i];
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.optionsCode.GDgameplaytabObjects1.length;i<l;++i) {
+    if ( gdjs.optionsCode.GDgameplaytabObjects1[i].getBehavior("MultitouchButton").IsPressed((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.optionsCode.GDgameplaytabObjects1[k] = gdjs.optionsCode.GDgameplaytabObjects1[i];
         ++k;
     }
 }
-gdjs.cheats_32menuCode.GDcheatOutputTextObjects1.length = k;}if (gdjs.cheats_32menuCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.cheats_32menuCode.GDcheatOutputTextObjects1 */
-{for(var i = 0, len = gdjs.cheats_32menuCode.GDcheatOutputTextObjects1.length ;i < len;++i) {
-    gdjs.cheats_32menuCode.GDcheatOutputTextObjects1[i].setString("bruh why");
+gdjs.optionsCode.GDgameplaytabObjects1.length = k;
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("controlstab"), gdjs.optionsCode.GDcontrolstabObjects1);
+/* Reuse gdjs.optionsCode.GDgameplaytabObjects1 */
+{for(var i = 0, len = gdjs.optionsCode.GDcontrolstabObjects1.length ;i < len;++i) {
+    gdjs.optionsCode.GDcontrolstabObjects1[i].setBold(false);
+}
+}{for(var i = 0, len = gdjs.optionsCode.GDgameplaytabObjects1.length ;i < len;++i) {
+    gdjs.optionsCode.GDgameplaytabObjects1[i].setBold(true);
 }
 }}
 
@@ -83,47 +132,46 @@ gdjs.cheats_32menuCode.GDcheatOutputTextObjects1.length = k;}if (gdjs.cheats_32m
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("cheatOutputText"), gdjs.cheats_32menuCode.GDcheatOutputTextObjects1);
 
-gdjs.cheats_32menuCode.condition0IsTrue_0.val = false;
+let isConditionTrue_0 = false;
 {
-for(var i = 0, k = 0, l = gdjs.cheats_32menuCode.GDcheatOutputTextObjects1.length;i<l;++i) {
-    if ( gdjs.cheats_32menuCode.GDcheatOutputTextObjects1[i].getString() != "amogus" ) {
-        gdjs.cheats_32menuCode.condition0IsTrue_0.val = true;
-        gdjs.cheats_32menuCode.GDcheatOutputTextObjects1[k] = gdjs.cheats_32menuCode.GDcheatOutputTextObjects1[i];
-        ++k;
-    }
 }
-gdjs.cheats_32menuCode.GDcheatOutputTextObjects1.length = k;}if (gdjs.cheats_32menuCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.cheats_32menuCode.GDcheatOutputTextObjects1 */
-{for(var i = 0, len = gdjs.cheats_32menuCode.GDcheatOutputTextObjects1.length ;i < len;++i) {
-    gdjs.cheats_32menuCode.GDcheatOutputTextObjects1[i].setString("not a cheat");
-}
-}}
 
 }
 
 
 };
 
-gdjs.cheats_32menuCode.func = function(runtimeScene) {
+gdjs.optionsCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.cheats_32menuCode.GDxbuttonObjects1.length = 0;
-gdjs.cheats_32menuCode.GDxbuttonObjects2.length = 0;
-gdjs.cheats_32menuCode.GDhackaaaaObjects1.length = 0;
-gdjs.cheats_32menuCode.GDhackaaaaObjects2.length = 0;
-gdjs.cheats_32menuCode.GDtypecheatsObjects1.length = 0;
-gdjs.cheats_32menuCode.GDtypecheatsObjects2.length = 0;
-gdjs.cheats_32menuCode.GDcheatInputObjects1.length = 0;
-gdjs.cheats_32menuCode.GDcheatInputObjects2.length = 0;
-gdjs.cheats_32menuCode.GDcheatOutputTextObjects1.length = 0;
-gdjs.cheats_32menuCode.GDcheatOutputTextObjects2.length = 0;
+gdjs.optionsCode.GDxbuttonObjects1.length = 0;
+gdjs.optionsCode.GDxbuttonObjects2.length = 0;
+gdjs.optionsCode.GDcontrolstabObjects1.length = 0;
+gdjs.optionsCode.GDcontrolstabObjects2.length = 0;
+gdjs.optionsCode.GDgameplaytabObjects1.length = 0;
+gdjs.optionsCode.GDgameplaytabObjects2.length = 0;
+gdjs.optionsCode.GDmisctabObjects1.length = 0;
+gdjs.optionsCode.GDmisctabObjects2.length = 0;
+gdjs.optionsCode.GDdisplaytabObjects1.length = 0;
+gdjs.optionsCode.GDdisplaytabObjects2.length = 0;
+gdjs.optionsCode.GDdisplaytab2Objects1.length = 0;
+gdjs.optionsCode.GDdisplaytab2Objects2.length = 0;
+gdjs.optionsCode.GDusedpadtextObjects1.length = 0;
+gdjs.optionsCode.GDusedpadtextObjects2.length = 0;
+gdjs.optionsCode.GDrepositionjoyObjects1.length = 0;
+gdjs.optionsCode.GDrepositionjoyObjects2.length = 0;
+gdjs.optionsCode.GDSmallPlasticGreenRoundSliderObjects1.length = 0;
+gdjs.optionsCode.GDSmallPlasticGreenRoundSliderObjects2.length = 0;
+gdjs.optionsCode.GDusedpadbuttonObjects1.length = 0;
+gdjs.optionsCode.GDusedpadbuttonObjects2.length = 0;
+gdjs.optionsCode.GDreposjoyObjects1.length = 0;
+gdjs.optionsCode.GDreposjoyObjects2.length = 0;
 
-gdjs.cheats_32menuCode.eventsList0(runtimeScene);
+gdjs.optionsCode.eventsList0(runtimeScene);
 
 return;
 
 }
 
-gdjs['cheats_32menuCode'] = gdjs.cheats_32menuCode;
+gdjs['optionsCode'] = gdjs.optionsCode;

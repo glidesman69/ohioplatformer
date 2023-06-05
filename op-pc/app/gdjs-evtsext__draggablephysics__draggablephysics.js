@@ -113,15 +113,6 @@ gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doSt
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2= [];
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects3= [];
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition2IsTrue_0 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.conditionTrue_1 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_1 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition1IsTrue_1 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition2IsTrue_1 = {val:false};
-
 
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -129,16 +120,17 @@ gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doSt
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1);
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PhysicsBehavior")).isKinematic() ) {
-        gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[k] = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1.length = k;
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PhysicsBehavior")).setDynamic();
@@ -155,21 +147,21 @@ gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doSt
 
 /* Reuse gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2 */
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( !(gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).IsBeingDragged((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
-        gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.mapOfGDgdjs_46evtsExt_95_95DraggablePhysics_95_95DraggablePhysics_46DraggablePhysics_46prototype_46doStepPreEventsContext_46GDObjectObjects2Objects, runtimeScene, true, false);
-}}
-if (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.mapOfGDgdjs_46evtsExt_95_95DraggablePhysics_95_95DraggablePhysics_46DraggablePhysics_46prototype_46doStepPreEventsContext_46GDObjectObjects2Objects, runtimeScene, true, false);
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PhysicsBehavior")).addMouseJoint(gdjs.evtTools.input.getCursorX(runtimeScene, (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[i].getLayer()), 0), gdjs.evtTools.input.getCursorY(runtimeScene, (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[i].getLayer()), 0), (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMaxForce()), (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getFrequency()), (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDamping()), runtimeScene.getScene().getVariables().get("__DraggablePhysics").getChild("MouseJointID"));
@@ -195,17 +187,15 @@ if (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2);
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, (( gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? "" :gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMouseButton()));
-}if ( gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-{gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.conditionTrue_1 = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition1IsTrue_0;
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(15855364);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, (( gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? "" :gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMouseButton()));
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19272972);
 }
-}}
-if (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+}
+if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.eventsList1(runtimeScene, eventsFunctionContext);} //End of subevents
@@ -225,10 +215,10 @@ gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doSt
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2);
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, (( gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? "" :gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMouseButton()));
-}if (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, (( gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? "" :gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMouseButton()));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ReleaseDrag((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
@@ -249,16 +239,17 @@ gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doSt
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1);
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).IsBeingDragged((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[k] = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1.length = k;
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PhysicsBehavior")).setMouseJointTarget((gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMouseJointID()), gdjs.evtTools.input.getCursorX(runtimeScene, (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[i].getLayer()), 0), gdjs.evtTools.input.getCursorY(runtimeScene, (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.doStepPreEventsContext.GDObjectObjects1[i].getLayer()), 0));
@@ -358,10 +349,6 @@ gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.Rele
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1= [];
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.condition1IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -369,16 +356,17 @@ gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.Rele
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1);
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).IsBeingDragged((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1[k] = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1.length = k;
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PhysicsBehavior")).removeJoint((gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.ReleaseDragContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMouseJointID()));
@@ -464,10 +452,6 @@ gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBe
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.GDObjectObjects1= [];
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.condition1IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -475,16 +459,17 @@ gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBe
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.GDObjectObjects1);
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.GDObjectObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.GDObjectObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMouseJointID() != 0 ) {
-        gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.GDObjectObjects1[k] = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.IsBeingDraggedContext.GDObjectObjects1.length = k;
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -563,15 +548,13 @@ gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.onDe
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.onDeActivateContext.GDObjectObjects1= [];
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.onDeActivateContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.onDeActivateContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.onDeActivateContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.onDeActivateContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.onDeActivateContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__DraggablePhysics__DraggablePhysics.DraggablePhysics.prototype.onDeActivateContext.GDObjectObjects1.length ;i < len;++i) {

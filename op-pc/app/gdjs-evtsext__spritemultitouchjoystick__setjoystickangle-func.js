@@ -7,15 +7,13 @@ if (typeof gdjs.evtsExt__SpriteMultitouchJoystick__SetJoystickAngle !== "undefin
 
 gdjs.evtsExt__SpriteMultitouchJoystick__SetJoystickAngle = {};
 
-gdjs.evtsExt__SpriteMultitouchJoystick__SetJoystickAngle.conditionTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__SetJoystickAngle.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__SpriteMultitouchJoystick__SetJoystickAngle.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 {runtimeScene.getScene().getVariables().get("__MultitouchJoystick").getChild("Controllers").getChild((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("ControllerIdentifier")) || 0 : 0)).getChild("Joystick").getChild((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("JoystickIdentifier") : "")).getChild("Angle").setNumber((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Value")) || 0 : 0));
 }}

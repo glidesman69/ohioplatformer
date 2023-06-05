@@ -7,15 +7,13 @@ if (typeof gdjs.evtsExt__SpriteMultitouchJoystick__SetButtonState !== "undefined
 
 gdjs.evtsExt__SpriteMultitouchJoystick__SetButtonState = {};
 
-gdjs.evtsExt__SpriteMultitouchJoystick__SetButtonState.conditionTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__SetButtonState.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__SpriteMultitouchJoystick__SetButtonState.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 {runtimeScene.getScene().getVariables().get("__MultitouchJoystick").getChild("Controllers").getChild((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("ControllerIdentifier")) || 0 : 0)).getChild("Buttons").getChild((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Button") : "")).getChild("State").setString((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("ButtonState") : ""));
 }}

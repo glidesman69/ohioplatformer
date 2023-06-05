@@ -7,11 +7,8 @@ if (typeof gdjs.evtsExt__GetPropertiesData__ReturnScaleMode !== "undefined") {
 
 gdjs.evtsExt__GetPropertiesData__ReturnScaleMode = {};
 
-gdjs.evtsExt__GetPropertiesData__ReturnScaleMode.conditionTrue_0 = {val:false};
-gdjs.evtsExt__GetPropertiesData__ReturnScaleMode.condition0IsTrue_0 = {val:false};
 
-
-gdjs.evtsExt__GetPropertiesData__ReturnScaleMode.userFunc0xc17f20 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GetPropertiesData__ReturnScaleMode.userFunc0xe43730 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getGame().getGameData().properties.scaleMode;
 };
@@ -20,7 +17,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnScaleMode.eventsList0 = function(runtimeS
 {
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnScaleMode.userFunc0xc17f20(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__GetPropertiesData__ReturnScaleMode.userFunc0xe43730(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -7,11 +7,6 @@ if (typeof gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way !== "un
 
 gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way = {};
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.conditionTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.condition2IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -25,15 +20,14 @@ gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.eventsList0 = func
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.condition1IsTrue_0.val = false;
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.condition0IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__JoystickForce.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("ControllerIdentifier")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("JoystickIdentifier") : ""), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) > gdjs.evtsExt__SpriteMultitouchJoystick__DeadZone.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("ControllerIdentifier")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("JoystickIdentifier") : ""), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.func(runtimeScene, gdjs.evtsExt__SpriteMultitouchJoystick__JoystickAngle.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("ControllerIdentifier")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("JoystickIdentifier") : ""), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : ""), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsDirectionPushed4Way.condition1IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__JoystickForce.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("ControllerIdentifier")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("JoystickIdentifier") : ""), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) > gdjs.evtsExt__SpriteMultitouchJoystick__DeadZone.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("ControllerIdentifier")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("JoystickIdentifier") : ""), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.func(runtimeScene, gdjs.evtsExt__SpriteMultitouchJoystick__JoystickAngle.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("ControllerIdentifier")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("JoystickIdentifier") : ""), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : ""), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }

@@ -1,37 +1,42 @@
-gdjs.save_32screenCode = {};
-gdjs.save_32screenCode.GDxbuttonObjects1= [];
-gdjs.save_32screenCode.GDxbuttonObjects2= [];
-gdjs.save_32screenCode.GDsavewarningObjects1= [];
-gdjs.save_32screenCode.GDsavewarningObjects2= [];
-gdjs.save_32screenCode.GDsavewarning2Objects1= [];
-gdjs.save_32screenCode.GDsavewarning2Objects2= [];
-gdjs.save_32screenCode.GDsave1ButtonObjects1= [];
-gdjs.save_32screenCode.GDsave1ButtonObjects2= [];
-gdjs.save_32screenCode.GDsave2ButtonObjects1= [];
-gdjs.save_32screenCode.GDsave2ButtonObjects2= [];
-gdjs.save_32screenCode.GDsave3ButtonObjects1= [];
-gdjs.save_32screenCode.GDsave3ButtonObjects2= [];
-gdjs.save_32screenCode.GDsave4ButtonObjects1= [];
-gdjs.save_32screenCode.GDsave4ButtonObjects2= [];
-gdjs.save_32screenCode.GDdeletesaveButtonObjects1= [];
-gdjs.save_32screenCode.GDdeletesaveButtonObjects2= [];
-
-gdjs.save_32screenCode.conditionTrue_0 = {val:false};
-gdjs.save_32screenCode.condition0IsTrue_0 = {val:false};
-gdjs.save_32screenCode.condition1IsTrue_0 = {val:false};
+gdjs.warning_32screenCode = {};
+gdjs.warning_32screenCode.GDxbuttonObjects1= [];
+gdjs.warning_32screenCode.GDxbuttonObjects2= [];
+gdjs.warning_32screenCode.GDwarningObjects1= [];
+gdjs.warning_32screenCode.GDwarningObjects2= [];
+gdjs.warning_32screenCode.GDwarningtextObjects1= [];
+gdjs.warning_32screenCode.GDwarningtextObjects2= [];
+gdjs.warning_32screenCode.GDclickdetectionObjects1= [];
+gdjs.warning_32screenCode.GDclickdetectionObjects2= [];
+gdjs.warning_32screenCode.GDinputtocontinueObjects1= [];
+gdjs.warning_32screenCode.GDinputtocontinueObjects2= [];
 
 
-gdjs.save_32screenCode.eventsList0 = function(runtimeScene) {
+gdjs.warning_32screenCode.eventsList0 = function(runtimeScene) {
 
 {
 
 
-gdjs.save_32screenCode.condition0IsTrue_0.val = false;
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
 {
-gdjs.save_32screenCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-}if (gdjs.save_32screenCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(5).setString("save");
-}{gdjs.evtTools.window.setWindowTitle(runtimeScene, gdjs.evtsExt__GetPropertiesData__ReturnGameTitle.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3)) + " - menu (" + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5)) + " screen)");
+isConditionTrue_1 = gdjs.evtTools.input.anyKeyPressed(runtimeScene);
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+isConditionTrue_1 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "menu", false);
 }}
 
 }
@@ -40,38 +45,53 @@ gdjs.save_32screenCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.scene
 {
 
 
-{
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.systemInfo.hasTouchScreen(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("inputtocontinue"), gdjs.warning_32screenCode.GDinputtocontinueObjects1);
+{for(var i = 0, len = gdjs.warning_32screenCode.GDinputtocontinueObjects1.length ;i < len;++i) {
+    gdjs.warning_32screenCode.GDinputtocontinueObjects1[i].setString("press anywhere on the screen to continue");
 }
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(5).setString("warning");
+}{gdjs.evtTools.window.setWindowTitle(runtimeScene, gdjs.evtsExt__GetPropertiesData__ReturnGameTitle.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3)) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5)) + " screen");
+}}
 
 }
 
 
 };
 
-gdjs.save_32screenCode.func = function(runtimeScene) {
+gdjs.warning_32screenCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.save_32screenCode.GDxbuttonObjects1.length = 0;
-gdjs.save_32screenCode.GDxbuttonObjects2.length = 0;
-gdjs.save_32screenCode.GDsavewarningObjects1.length = 0;
-gdjs.save_32screenCode.GDsavewarningObjects2.length = 0;
-gdjs.save_32screenCode.GDsavewarning2Objects1.length = 0;
-gdjs.save_32screenCode.GDsavewarning2Objects2.length = 0;
-gdjs.save_32screenCode.GDsave1ButtonObjects1.length = 0;
-gdjs.save_32screenCode.GDsave1ButtonObjects2.length = 0;
-gdjs.save_32screenCode.GDsave2ButtonObjects1.length = 0;
-gdjs.save_32screenCode.GDsave2ButtonObjects2.length = 0;
-gdjs.save_32screenCode.GDsave3ButtonObjects1.length = 0;
-gdjs.save_32screenCode.GDsave3ButtonObjects2.length = 0;
-gdjs.save_32screenCode.GDsave4ButtonObjects1.length = 0;
-gdjs.save_32screenCode.GDsave4ButtonObjects2.length = 0;
-gdjs.save_32screenCode.GDdeletesaveButtonObjects1.length = 0;
-gdjs.save_32screenCode.GDdeletesaveButtonObjects2.length = 0;
+gdjs.warning_32screenCode.GDxbuttonObjects1.length = 0;
+gdjs.warning_32screenCode.GDxbuttonObjects2.length = 0;
+gdjs.warning_32screenCode.GDwarningObjects1.length = 0;
+gdjs.warning_32screenCode.GDwarningObjects2.length = 0;
+gdjs.warning_32screenCode.GDwarningtextObjects1.length = 0;
+gdjs.warning_32screenCode.GDwarningtextObjects2.length = 0;
+gdjs.warning_32screenCode.GDclickdetectionObjects1.length = 0;
+gdjs.warning_32screenCode.GDclickdetectionObjects2.length = 0;
+gdjs.warning_32screenCode.GDinputtocontinueObjects1.length = 0;
+gdjs.warning_32screenCode.GDinputtocontinueObjects2.length = 0;
 
-gdjs.save_32screenCode.eventsList0(runtimeScene);
+gdjs.warning_32screenCode.eventsList0(runtimeScene);
 
 return;
 
 }
 
-gdjs['save_32screenCode'] = gdjs.save_32screenCode;
+gdjs['warning_32screenCode'] = gdjs.warning_32screenCode;

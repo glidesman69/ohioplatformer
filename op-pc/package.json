@@ -4,7 +4,7 @@
   "productName": "ohio platformer",
   "description": "ohio platformer",
   "author": "wavefront :D",
-  "version": "v0.10.2.2",
+  "version": "v0.13.0",
   "dependencies": {
     
 	"discord-rich-presence": "0.0.8",

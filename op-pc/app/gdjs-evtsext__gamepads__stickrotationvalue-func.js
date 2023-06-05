@@ -7,11 +7,8 @@ if (typeof gdjs.evtsExt__Gamepads__StickRotationValue !== "undefined") {
 
 gdjs.evtsExt__Gamepads__StickRotationValue = {};
 
-gdjs.evtsExt__Gamepads__StickRotationValue.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Gamepads__StickRotationValue.condition0IsTrue_0 = {val:false};
 
-
-gdjs.evtsExt__Gamepads__StickRotationValue.userFunc0xe15fb0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__StickRotationValue.userFunc0x134fcc0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {Gamepad[]} */
 const gamepads = navigator.getGamepads ? navigator.getGamepads() : (navigator.webkitGetGamepads ? navigator.webkitGetGamepads() : []);
@@ -53,7 +50,7 @@ gdjs.evtsExt__Gamepads__StickRotationValue.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__Gamepads__StickRotationValue.userFunc0xe15fb0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Gamepads__StickRotationValue.userFunc0x134fcc0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

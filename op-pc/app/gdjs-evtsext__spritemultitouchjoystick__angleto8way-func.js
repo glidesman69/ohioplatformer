@@ -7,15 +7,13 @@ if (typeof gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way !== "undefined") 
 
 gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way = {};
 
-gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.conditionTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = gdjs.evtTools.common.mod(Math.round((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0) * 8 / 360), 8); }}}
 

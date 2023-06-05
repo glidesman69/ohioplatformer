@@ -7,15 +7,13 @@ if (typeof gdjs.evtsExt__SpriteMultitouchJoystick__SetDeadZone !== "undefined") 
 
 gdjs.evtsExt__SpriteMultitouchJoystick__SetDeadZone = {};
 
-gdjs.evtsExt__SpriteMultitouchJoystick__SetDeadZone.conditionTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__SetDeadZone.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__SpriteMultitouchJoystick__SetDeadZone.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 {runtimeScene.getScene().getVariables().get("__MultitouchJoystick").getChild("Controllers").getChild((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("ControllerIdentifier")) || 0 : 0)).getChild("Joystick").getChild((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("JoystickIdentifier") : "")).getChild("DeadZone").setNumber((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("DeadZoneRadius")) || 0 : 0));
 }}

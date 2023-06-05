@@ -57,11 +57,8 @@ gdjs.evtsExt__IsOnScreen__InOnScreen.InOnScreen.getSharedData = function(instanc
 gdjs.evtsExt__IsOnScreen__InOnScreen.InOnScreen.prototype.IsOnScreenContext = {};
 gdjs.evtsExt__IsOnScreen__InOnScreen.InOnScreen.prototype.IsOnScreenContext.GDObjectObjects1= [];
 
-gdjs.evtsExt__IsOnScreen__InOnScreen.InOnScreen.prototype.IsOnScreenContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__IsOnScreen__InOnScreen.InOnScreen.prototype.IsOnScreenContext.condition0IsTrue_0 = {val:false};
 
-
-gdjs.evtsExt__IsOnScreen__InOnScreen.InOnScreen.prototype.IsOnScreenContext.userFunc0xc38488 = function(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__IsOnScreen__InOnScreen.InOnScreen.prototype.IsOnScreenContext.userFunc0xd8e8d8 = function(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /*
 Get the object layer, convert the position from this layer to the screen coordinates.
@@ -111,7 +108,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__IsOnScr
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__IsOnScreen__InOnScreen.InOnScreen.prototype.IsOnScreenContext.GDObjectObjects1);
-gdjs.evtsExt__IsOnScreen__InOnScreen.InOnScreen.prototype.IsOnScreenContext.userFunc0xc38488(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__IsOnScreen__InOnScreen.InOnScreen.prototype.IsOnScreenContext.userFunc0xd8e8d8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

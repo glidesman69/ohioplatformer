@@ -94,15 +94,13 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.ValueContext = {};
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.ValueContext.GDObjectObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.ValueContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.ValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.ValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.ValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.ValueContext.GDObjectObjects1);
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.ValueContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.ValueContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getValue()); }}}
@@ -182,10 +180,6 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext = {};
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.condition1IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -193,16 +187,17 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.eventsL
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1);
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getStepSize() == 0 ) {
-        gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[k] = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1.length = k;
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setValue(gdjs.evtTools.common.clamp((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Value")) || 0 : 0), (gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMinValue()), (gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMaxValue())));
@@ -216,16 +211,17 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjec
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1);
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getStepSize() != 0 ) {
-        gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[k] = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1.length = k;
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setValue(gdjs.evtTools.common.clamp(Math.round((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Value")) || 0 : 0) / (gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getStepSize())) * (gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getStepSize()), (gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMinValue()), (gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMaxValue())));
@@ -308,15 +304,13 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MinValueContext = {};
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MinValueContext.GDObjectObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MinValueContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MinValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MinValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MinValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MinValueContext.GDObjectObjects1);
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MinValueContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MinValueContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMinValue()); }}}
@@ -396,15 +390,13 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMinValueContext = {}
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMinValueContext.GDObjectObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMinValueContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMinValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMinValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMinValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMinValueContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMinValueContext.GDObjectObjects1.length ;i < len;++i) {
@@ -491,15 +483,13 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MaxValueContext = {};
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MaxValueContext.GDObjectObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MaxValueContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MaxValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MaxValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MaxValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MaxValueContext.GDObjectObjects1);
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MaxValueContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.MaxValueContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getMaxValue()); }}}
@@ -579,15 +569,13 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMaxValueContext = {}
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMaxValueContext.GDObjectObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMaxValueContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMaxValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMaxValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMaxValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMaxValueContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetMaxValueContext.GDObjectObjects1.length ;i < len;++i) {
@@ -674,15 +662,13 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext = {};
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext.GDObjectObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext.GDObjectObjects1);
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).MaxValue((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) - (( gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SizeContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).MinValue((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))); }}}
@@ -762,15 +748,13 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.StepSizeContext = {};
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.StepSizeContext.GDObjectObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.StepSizeContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.StepSizeContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.StepSizeContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.StepSizeContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.StepSizeContext.GDObjectObjects1);
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.StepSizeContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.StepSizeContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getStepSize()); }}}
@@ -850,15 +834,13 @@ gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetStepSizeContext = {}
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetStepSizeContext.GDObjectObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetStepSizeContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetStepSizeContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetStepSizeContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetStepSizeContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetStepSizeContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__Slider.Slider.prototype.SetStepSizeContext.GDObjectObjects1.length ;i < len;++i) {

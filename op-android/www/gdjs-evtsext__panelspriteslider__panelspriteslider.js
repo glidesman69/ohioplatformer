@@ -174,9 +174,6 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.o
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.mapOfGDgdjs_46evtsExt_95_95PanelSpriteSlider_95_95PanelSpriteSlider_46PanelSpriteSlider_46prototype_46onCreatedContext_46GDBackgroundObjects1Objects = Hashtable.newFrom({"Background": gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDBackgroundObjects1});
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.mapOfGDgdjs_46evtsExt_95_95PanelSpriteSlider_95_95PanelSpriteSlider_46PanelSpriteSlider_46prototype_46onCreatedContext_46GDFillBarObjects1Objects = Hashtable.newFrom({"FillBar": gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDFillBarObjects1});
@@ -194,6 +191,7 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.o
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDObjectObjects1.length ;i < len;++i) {
@@ -214,6 +212,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSp
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDBackgroundObjects1.length = 0;
 
@@ -248,6 +247,7 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.o
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDLabelObjects1.length = 0;
 
@@ -276,6 +276,7 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.o
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDObjectObjects1.length ;i < len;++i) {
@@ -292,6 +293,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSp
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDFillBarObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onCreatedContext.GDLabelObjects1);
@@ -413,16 +415,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.o
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.condition1IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1.length ;i < len;++i) {
@@ -440,16 +439,17 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSp
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1);
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1[i]._getInitialValue() != (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1[i]._getPreviousInitialValue()) ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1.length = k;
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1[i]._setPreviousInitialValue((gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.onHotReloadingContext.GDObjectObjects1[i]._getInitialValue()));
@@ -579,22 +579,6 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.d
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition2IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition3IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition2IsTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition3IsTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_2 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_2 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_2 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition2IsTrue_2 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition3IsTrue_2 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -602,16 +586,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.d
 
 /* Reuse gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2 */
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[i]._getShowLabelAtChanges() ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length ;i < len;++i) {
     gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[i].hide(false);
@@ -630,16 +615,17 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpr
 
 /* Reuse gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2 */
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[i]._getShowLabelAtChanges() ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length ;i < len;++i) {
     gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[i].hide(false);
@@ -657,44 +643,45 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpr
 gdjs.copyArray(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1, gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2);
 
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_0.val = false;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition2IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;i<l;++i) {
     if ( !(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Draggable")).isDragged()) ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length = k;}if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;i<l;++i) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;i<l;++i) {
     if ( !(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Draggable")).wasJustDropped()) ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length = k;}if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_0.val ) {
-{
-{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition2IsTrue_0;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2_1final.length = 0;gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_1.val = false;
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2_1final.length = 0;
+let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
 {
 gdjs.copyArray(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1, gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3);
 
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length;i<l;++i) {
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("ButtonFSM")).IsPressed((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_1.val = true;
+        isConditionTrue_1 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length = k;if( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_1.val ) {
-    gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length;j<jLen;++j) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length = k;
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3[j]);
     }
@@ -703,16 +690,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.d
 {
 gdjs.copyArray(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1, gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3);
 
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length;i<l;++i) {
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("ButtonFSM")).IsPressedOutside((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_1.val = true;
+        isConditionTrue_1 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length = k;if( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_1.val ) {
-    gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length;j<jLen;++j) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length = k;
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects3[j]);
     }
@@ -722,9 +710,9 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.d
 gdjs.copyArray(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2_1final, gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2);
 }
 }
-}}
 }
-if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition2IsTrue_0.val) {
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2 */
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDFillBarObjects2);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2);
@@ -743,16 +731,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.d
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2);
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Draggable")).isDragged() ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length = k;
+if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDFillBarObjects2);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2);
 /* Reuse gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2 */
@@ -771,16 +760,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.d
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2);
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Draggable")).wasJustDropped() ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length = k;
+if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length ;i < len;++i) {
     gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[i].resetTimer("HideBack");
@@ -795,27 +785,28 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpr
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2);
 gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2);
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[i]._getShowLabelAtChanges() ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;i<l;++i) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i].isCollidingWithPoint(gdjs.evtTools.input.getMouseOnlyCursorX(runtimeScene, (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length === 0 ) ? "" :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[0].getLayer()), 0), gdjs.evtTools.input.getMouseOnlyCursorY(runtimeScene, (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i].getLayer()), 0)) ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length = k;}}
-if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length = k;
+}
+if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length ;i < len;++i) {
     gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[i].hide(false);
@@ -832,16 +823,17 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpr
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1);
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1[i].getTimerElapsedTimeInSecondsOrNaN("HideBack") > 0.5 ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1.length = k;
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1.length ;i < len;++i) {
     gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1[i].hide();
@@ -860,16 +852,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.d
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1);
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1[i].behaviorActivated(eventsFunctionContext.getBehaviorName("ButtonFSM")) ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1.length = k;
+if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.eventsList2(runtimeScene, eventsFunctionContext);} //End of subevents
@@ -898,34 +891,36 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.d
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects1.length = 0;
 
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
-{
-{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1_1final.length = 0;gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1_1final.length = 0;gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1_1final.length = 0;gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects1_1final.length = 0;gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_1.val = false;
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1_1final.length = 0;
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1_1final.length = 0;
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1_1final.length = 0;
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects1_1final.length = 0;
+let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2);
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2);
 gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2);
-{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_2 = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_1;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_2.val = ((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[0].getWidth()) != Math.max((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[0].getAABBRight()), Math.max((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[0].getAABBRight()), (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[0].getAABBRight()))) - Math.min((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[0].getAABBLeft()), Math.min((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[0].getAABBLeft()), (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[0].getAABBLeft()))));
+{isConditionTrue_1 = ((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[0].getWidth()) != Math.max((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[0].getAABBRight()), Math.max((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[0].getAABBRight()), (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[0].getAABBRight()))) - Math.min((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[0].getAABBLeft()), Math.min((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[0].getAABBLeft()), (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[0].getAABBLeft()))));
 }
-if( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_1.val ) {
-    gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length;j<jLen;++j) {
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[j]);
     }
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length;j<jLen;++j) {
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[j]);
     }
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length;j<jLen;++j) {
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[j]);
     }
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;j<jLen;++j) {
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[j]);
     }
@@ -936,24 +931,23 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__Pan
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2);
 gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2);
-{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_2 = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_1;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_2.val = ((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[0].getHeight()) != Math.max((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[0].getAABBBottom()), Math.max((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[0].getAABBBottom()), (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[0].getAABBBottom()))) - Math.min((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[0].getAABBTop()), Math.min((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[0].getAABBTop()), (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[0].getAABBTop()))));
+{isConditionTrue_1 = ((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[0].getHeight()) != Math.max((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[0].getAABBBottom()), Math.max((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[0].getAABBBottom()), (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[0].getAABBBottom()))) - Math.min((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[0].getAABBTop()), Math.min((( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[0].getAABBTop()), (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[0].getAABBTop()))));
 }
-if( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition1IsTrue_1.val ) {
-    gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length;j<jLen;++j) {
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects2[j]);
     }
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length;j<jLen;++j) {
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDLabelObjects2[j]);
     }
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length;j<jLen;++j) {
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects2[j]);
     }
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length;j<jLen;++j) {
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects2[j]);
     }
@@ -966,7 +960,7 @@ gdjs.copyArray(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSli
 gdjs.copyArray(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects1_1final, gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDThumbObjects1);
 }
 }
-}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1 */
 /* Reuse gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1.length ;i < len;++i) {
@@ -1018,12 +1012,11 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.d
 {
 
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
-{
-{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(15276660);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(18686436);
 }
-}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
+if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1[i].UpdateLayout((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
@@ -1147,17 +1140,6 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.I
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition2IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition3IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.conditionTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition0IsTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition1IsTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition2IsTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition3IsTrue_1 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -1168,24 +1150,25 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.I
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects1.length = 0;
 
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition0IsTrue_0.val = false;
-{
-{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition0IsTrue_0;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects1_1final.length = 0;gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects1_1final.length = 0;gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition1IsTrue_1.val = false;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition2IsTrue_1.val = false;
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects1_1final.length = 0;
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects1_1final.length = 0;
+let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2);
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2.length;i<l;++i) {
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Draggable")).isDragged() ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition0IsTrue_1.val = true;
+        isConditionTrue_1 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2.length = k;if( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition0IsTrue_1.val ) {
-    gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2.length;j<jLen;++j) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2.length = k;
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects2[j]);
     }
@@ -1193,16 +1176,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.I
 }
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2);
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length;i<l;++i) {
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("ButtonFSM")).IsPressed((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition1IsTrue_1.val = true;
+        isConditionTrue_1 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length = k;if( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition1IsTrue_1.val ) {
-    gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length;j<jLen;++j) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length = k;
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2[j]);
     }
@@ -1210,16 +1194,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.I
 }
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2);
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length;i<l;++i) {
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("ButtonFSM")).IsPressedOutside((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition2IsTrue_1.val = true;
+        isConditionTrue_1 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length = k;if( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition2IsTrue_1.val ) {
-    gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length;j<jLen;++j) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length = k;
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2.length; j < jLen ; ++j) {
         if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects1_1final.indexOf(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2[j]) === -1 )
             gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects1_1final.push(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDBackgroundObjects2[j]);
     }
@@ -1230,7 +1215,7 @@ gdjs.copyArray(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSli
 gdjs.copyArray(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects1_1final, gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.GDThumbObjects1);
 }
 }
-}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsBeingDraggedContext.condition0IsTrue_0.val) {
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -1338,15 +1323,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.V
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ValueContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ValueContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ValueContext.GDFillBarObjects1);
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ValueContext.GDFillBarObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ValueContext.GDFillBarObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Slider")).Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))); }}}
@@ -1456,15 +1439,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.S
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetValueContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetValueContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetValueContext.GDFillBarObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetValueContext.GDObjectObjects1);
@@ -1582,15 +1563,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.M
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MinValueContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MinValueContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MinValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MinValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MinValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MinValueContext.GDFillBarObjects1);
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MinValueContext.GDFillBarObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MinValueContext.GDFillBarObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Slider")).MinValue((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))); }}}
@@ -1700,15 +1679,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.S
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMinValueContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMinValueContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMinValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMinValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMinValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMinValueContext.GDFillBarObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMinValueContext.GDObjectObjects1);
@@ -1829,15 +1806,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.M
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MaxValueContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MaxValueContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MaxValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MaxValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MaxValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MaxValueContext.GDFillBarObjects1);
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MaxValueContext.GDFillBarObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.MaxValueContext.GDFillBarObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Slider")).MaxValue((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))); }}}
@@ -1947,15 +1922,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.S
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMaxValueContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMaxValueContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMaxValueContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMaxValueContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMaxValueContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMaxValueContext.GDFillBarObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetMaxValueContext.GDObjectObjects1);
@@ -2076,15 +2049,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.S
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.StepSizeContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.StepSizeContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.StepSizeContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.StepSizeContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.StepSizeContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.StepSizeContext.GDFillBarObjects1);
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.StepSizeContext.GDFillBarObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.StepSizeContext.GDFillBarObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Slider")).StepSize((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))); }}}
@@ -2194,15 +2165,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.S
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetStepSizeContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetStepSizeContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetStepSizeContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetStepSizeContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetStepSizeContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetStepSizeContext.GDFillBarObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetStepSizeContext.GDFillBarObjects1.length ;i < len;++i) {
@@ -2316,10 +2285,6 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.I
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.condition1IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -2327,16 +2292,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.I
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.GDObjectObjects1);
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.GDObjectObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.GDObjectObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.GDObjectObjects1[i]._getShowLabelAtChanges() ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.GDObjectObjects1[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsLabelShownContext.GDObjectObjects1.length = k;
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -2444,25 +2410,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.S
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.conditionTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.condition0IsTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.condition1IsTrue_1 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.condition0IsTrue_0.val = false;
-{
-{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.condition0IsTrue_0;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.conditionTrue_1.val = !(typeof eventsFunctionContext !== 'undefined' ? !!eventsFunctionContext.getArgument("Value") : false);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !(typeof eventsFunctionContext !== 'undefined' ? !!eventsFunctionContext.getArgument("Value") : false);
 }
-}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.condition0IsTrue_0.val) {
+if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.GDLabelObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.GDObjectObjects1.length ;i < len;++i) {
@@ -2479,12 +2437,11 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSp
 {
 
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.condition0IsTrue_0.val = false;
-{
-{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.condition0IsTrue_0;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.conditionTrue_1.val = (typeof eventsFunctionContext !== 'undefined' ? !!eventsFunctionContext.getArgument("Value") : false);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (typeof eventsFunctionContext !== 'undefined' ? !!eventsFunctionContext.getArgument("Value") : false);
 }
-}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.condition0IsTrue_0.val) {
+if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.GDLabelObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.SetLabelShownContext.GDObjectObjects1.length ;i < len;++i) {
@@ -2601,15 +2558,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.U
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateLayoutContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateLayoutContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateLayoutContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateLayoutContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateLayoutContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateLayoutContext.GDBackgroundObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateLayoutContext.GDFillBarObjects1);
@@ -2732,16 +2687,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.U
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDBackgroundObjects2= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDBackgroundObjects3= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.condition1IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects1, gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects2);
 
@@ -2757,6 +2709,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSp
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects1, gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects2);
 
@@ -2776,6 +2729,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpr
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDLabelObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDObjectObjects1);
@@ -2803,16 +2757,17 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpr
 
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects1);
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Slider")).Size((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) > 0 ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects1[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects1.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.GDFillBarObjects1.length = k;
+if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateThumbPositionContext.eventsList0(runtimeScene, eventsFunctionContext);} //End of subevents
@@ -2928,15 +2883,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.F
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarLeftContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarLeftContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarLeftContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarLeftContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarLeftContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarLeftContext.GDObjectObjects1);
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarLeftContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarLeftContext.GDObjectObjects1[0]._getBarLeftPadding()); }}}
@@ -3046,15 +2999,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.F
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarRightContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarRightContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarRightContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarRightContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarRightContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarRightContext.GDBackgroundObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarRightContext.GDObjectObjects1);
@@ -3165,15 +3116,13 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.F
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarWidthContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarWidthContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarWidthContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarWidthContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarWidthContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarWidthContext.GDBackgroundObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.FullBarWidthContext.GDObjectObjects1);
@@ -3284,9 +3233,6 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.U
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateSliderConfigurationContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateSliderConfigurationContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateSliderConfigurationContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateSliderConfigurationContext.condition0IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateSliderConfigurationContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -3300,6 +3246,7 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.U
 {
 
 
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateSliderConfigurationContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.UpdateSliderConfigurationContext.GDObjectObjects1.length ;i < len;++i) {
@@ -3418,25 +3365,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.A
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.conditionTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.condition0IsTrue_1 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.condition1IsTrue_1 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.condition0IsTrue_0.val = false;
-{
-{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.condition0IsTrue_0;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.conditionTrue_1.val = (typeof eventsFunctionContext !== 'undefined' ? !!eventsFunctionContext.getArgument("ShouldActivate") : false);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (typeof eventsFunctionContext !== 'undefined' ? !!eventsFunctionContext.getArgument("ShouldActivate") : false);
 }
-}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.condition0IsTrue_0.val) {
+if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.GDBackgroundObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.GDThumbObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.GDThumbObjects1.length ;i < len;++i) {
@@ -3453,12 +3392,11 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpr
 {
 
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.condition0IsTrue_0.val = false;
-{
-{gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.condition0IsTrue_0;
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.conditionTrue_1.val = !(typeof eventsFunctionContext !== 'undefined' ? !!eventsFunctionContext.getArgument("ShouldActivate") : false);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !(typeof eventsFunctionContext !== 'undefined' ? !!eventsFunctionContext.getArgument("ShouldActivate") : false);
 }
-}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.condition0IsTrue_0.val) {
+if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.GDBackgroundObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Label"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.GDLabelObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Thumb"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.ActivateContext.GDThumbObjects1);
@@ -3579,10 +3517,6 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.I
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.GDBackgroundObjects1= [];
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.GDBackgroundObjects2= [];
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.condition1IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -3590,16 +3524,17 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.I
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.GDBackgroundObjects1);
 
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.GDBackgroundObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.GDBackgroundObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.GDBackgroundObjects1[i].behaviorActivated(eventsFunctionContext.getBehaviorName("ButtonFSM")) ) {
-        gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.GDBackgroundObjects1[k] = gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.GDBackgroundObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.GDBackgroundObjects1.length = k;}if (gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.IsActivatedContext.GDBackgroundObjects1.length = k;
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }

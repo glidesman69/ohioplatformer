@@ -7,11 +7,8 @@ if (typeof gdjs.evtsExt__GetPropertiesData__ReturnOrientation !== "undefined") {
 
 gdjs.evtsExt__GetPropertiesData__ReturnOrientation = {};
 
-gdjs.evtsExt__GetPropertiesData__ReturnOrientation.conditionTrue_0 = {val:false};
-gdjs.evtsExt__GetPropertiesData__ReturnOrientation.condition0IsTrue_0 = {val:false};
 
-
-gdjs.evtsExt__GetPropertiesData__ReturnOrientation.userFunc0xc075a8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GetPropertiesData__ReturnOrientation.userFunc0xe43730 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getGame().getGameData().properties.orientation;
 };
@@ -20,7 +17,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnOrientation.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnOrientation.userFunc0xc075a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__GetPropertiesData__ReturnOrientation.userFunc0xe43730(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

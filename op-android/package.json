@@ -1,7 +1,7 @@
 {
     "name": "ohio_32platformer",
     "displayName": "ohio platformer",
-    "version": "v0.10.2.2",
+    "version": "v0.13.0",
     "description": "ohio platformer",
     "main": "index.js",
     "scripts": {

@@ -7,11 +7,8 @@ if (typeof gdjs.evtsExt__GetPropertiesData__ReturnPackageName !== "undefined") {
 
 gdjs.evtsExt__GetPropertiesData__ReturnPackageName = {};
 
-gdjs.evtsExt__GetPropertiesData__ReturnPackageName.conditionTrue_0 = {val:false};
-gdjs.evtsExt__GetPropertiesData__ReturnPackageName.condition0IsTrue_0 = {val:false};
 
-
-gdjs.evtsExt__GetPropertiesData__ReturnPackageName.userFunc0xc075a8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GetPropertiesData__ReturnPackageName.userFunc0xe43730 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getGame().getGameData().properties.packageName;
 };
@@ -20,7 +17,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnPackageName.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnPackageName.userFunc0xc075a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__GetPropertiesData__ReturnPackageName.userFunc0xe43730(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

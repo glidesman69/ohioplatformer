@@ -7,32 +7,21 @@ if (typeof gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection !== "u
 
 gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection = {};
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition2IsTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_1 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_1 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition2IsTrue_1 = {val:false};
-
 
 gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Right");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Right");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -41,17 +30,15 @@ if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsT
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "DownRight");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "DownRight");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -60,17 +47,15 @@ if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsT
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Down");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Down");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -79,17 +64,15 @@ if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsT
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "DownLeft");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "DownLeft");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 3;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 3;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -98,17 +81,15 @@ if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsT
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Left");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Left");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 4;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 4;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -117,17 +98,15 @@ if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsT
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "UpLeft");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "UpLeft");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 5;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 5;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -136,17 +115,15 @@ if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsT
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Up");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Up");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 6;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 6;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -155,17 +132,15 @@ if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsT
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "UpRight");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "UpRight");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 7;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn8WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo8Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 7;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }

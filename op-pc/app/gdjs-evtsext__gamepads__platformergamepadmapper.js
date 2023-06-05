@@ -123,11 +123,6 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3= [];
 gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects4= [];
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition2IsTrue_0 = {val:false};
-
 
 gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
@@ -136,10 +131,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateLeftKey();
@@ -154,10 +149,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Right", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Right", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateRightKey();
@@ -172,10 +167,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Up", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Up", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateUpKey();
@@ -192,10 +187,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Down", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Down", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateDownKey();
@@ -212,10 +207,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Left", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Left", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateLeftKey();
@@ -230,10 +225,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Left", "Right", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Left", "Right", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateRightKey();
@@ -248,10 +243,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Left", "Up", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Left", "Up", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateUpKey();
@@ -268,10 +263,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Left", "Down", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Left", "Down", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateDownKey();
@@ -288,10 +283,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Right", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Right", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateLeftKey();
@@ -306,10 +301,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Right", "Right", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Right", "Right", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateRightKey();
@@ -324,10 +319,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Right", "Up", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Right", "Up", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateUpKey();
@@ -344,10 +339,10 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Right", "Down", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Right", "Down", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateDownKey();
@@ -364,16 +359,17 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getUseArrows() ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.eventsList0(runtimeScene, eventsFunctionContext);} //End of subevents
@@ -387,16 +383,17 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getUseLeftStick() ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.eventsList1(runtimeScene, eventsFunctionContext);} //End of subevents
@@ -410,16 +407,17 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getUseRightStick() ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.eventsList2(runtimeScene, eventsFunctionContext);} //End of subevents
@@ -433,21 +431,21 @@ gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototyp
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpButton() == "A or Cross" ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "A", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "A", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateJumpKey();
@@ -462,21 +460,21 @@ if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prot
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpButton() == "B or Circle" ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "B", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "B", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateJumpKey();
@@ -491,21 +489,21 @@ if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prot
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpButton() == "X or Square" ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "X", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "X", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateJumpKey();
@@ -520,21 +518,21 @@ if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prot
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpButton() == "Y or Triangle" ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Y", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "Y", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateJumpKey();
@@ -549,21 +547,21 @@ if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prot
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpButton() == "LB or L1" ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "LB", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "LB", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateJumpKey();
@@ -578,21 +576,21 @@ if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prot
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpButton() == "RB or R1" ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "RB", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "RB", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateJumpKey();
@@ -607,21 +605,21 @@ if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prot
 gdjs.copyArray(gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpButton() == "LT or L2" ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "LT", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "LT", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateJumpKey();
@@ -635,21 +633,21 @@ if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prot
 
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1 */
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1.length;i<l;++i) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1.length;i<l;++i) {
     if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpButton() == "RT or R2" ) {
-        gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = true;
+        isConditionTrue_0 = true;
         gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1[k] = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "RT", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), "RT", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).simulateJumpKey();
@@ -665,10 +663,10 @@ if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prot
 
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1);
 
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-{
-gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Controller_X_is_connected.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}if (gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Controller_X_is_connected.func(runtimeScene, (( gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getGamepadIdentifier()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.evtsExt__Gamepads__PlatformerGamepadMapper.PlatformerGamepadMapper.prototype.doStepPreEventsContext.eventsList3(runtimeScene, eventsFunctionContext);} //End of subevents

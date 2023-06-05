@@ -7,11 +7,8 @@ if (typeof gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000 !== "undefined") {
 
 gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000 = {};
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.conditionTrue_0 = {val:false};
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.condition0IsTrue_0 = {val:false};
 
-
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.userFunc0xc075a8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.userFunc0xe405e0 = function(runtimeScene, eventsFunctionContext) {
 var format_time = function (time_second) {
     date = new Date(null);
     date.setMilliseconds(1000*time_second);
@@ -29,7 +26,7 @@ gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.userFunc0xc075a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.userFunc0xe405e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -7,11 +7,8 @@ if (typeof gdjs.evtsExt__GetPropertiesData__ReturnPublisherName !== "undefined")
 
 gdjs.evtsExt__GetPropertiesData__ReturnPublisherName = {};
 
-gdjs.evtsExt__GetPropertiesData__ReturnPublisherName.conditionTrue_0 = {val:false};
-gdjs.evtsExt__GetPropertiesData__ReturnPublisherName.condition0IsTrue_0 = {val:false};
 
-
-gdjs.evtsExt__GetPropertiesData__ReturnPublisherName.userFunc0xc075a8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GetPropertiesData__ReturnPublisherName.userFunc0xe43730 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getGame().getGameData().properties.author;
 };
@@ -20,7 +17,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnPublisherName.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnPublisherName.userFunc0xc075a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__GetPropertiesData__ReturnPublisherName.userFunc0xe43730(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

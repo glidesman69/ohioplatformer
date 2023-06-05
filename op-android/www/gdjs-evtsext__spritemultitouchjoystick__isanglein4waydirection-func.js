@@ -7,32 +7,21 @@ if (typeof gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection !== "u
 
 gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection = {};
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.conditionTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition2IsTrue_0 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.conditionTrue_1 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_1 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_1 = {val:false};
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition2IsTrue_1 = {val:false};
-
 
 gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Right");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Right");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo4Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo4Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 0;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -41,17 +30,15 @@ if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsT
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Down");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Down");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo4Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo4Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 1;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -60,17 +47,15 @@ if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsT
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Left");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Left");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo4Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo4Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 2;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
@@ -79,17 +64,15 @@ if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsT
 {
 
 
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0.val = false;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val = false;
-{
-{gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.conditionTrue_1 = gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0;
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.conditionTrue_1.val = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Up");
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = ((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Direction") : "") == "Up");
 }
-}if ( gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition0IsTrue_0.val ) {
-{
-gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo4Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 3;
-}}
-if (gdjs.evtsExt__SpriteMultitouchJoystick__IsAngleIn4WayDirection.condition1IsTrue_0.val) {
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtsExt__SpriteMultitouchJoystick__AngleTo4Way.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Angle")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == 3;
+}
+if (isConditionTrue_0) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
