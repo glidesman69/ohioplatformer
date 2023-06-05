@@ -5,6 +5,9 @@
 # so basically...
 as i said above, this is just a game for a school project and made with satirical purposes. this repo serves as the download center and for the source code for my teachers i guess. you can see the games that i built (or compiled whatever) in the releases.
 
+# to the teachers
+sorry if there's still some swear words, because i probably might have missed some in previous commits, and i created this repo just for sillies. the game executable is in the releases tab
+
 # for people from the outside
 don't expect any further development here cause i'm so burnt up. i've moved on developing in roblox studio, i might continue the development a bit and att some more stuff but idk. this is a school project after all. it's not like i'm getting paid for this. but you're free to fork the repo.
 
